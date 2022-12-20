@@ -1,0 +1,33 @@
+
+
+.form-container {
+    width: 400px;
+    margin: 0 auto 40px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    width: 100%;
+    border: 1px solid var(--gray);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form-container button[type="submit"] {
+    background-color: var(--purple);
+    color: var(--background);
+    border: none;
+    padding: 10px;
+    display: block;
+    width: 50%;
+    margin: 10px auto 0;
+    transition: all 0.2s;    
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: var(--light-purple);
+}

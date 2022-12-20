@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('./form.css');
+@import url('./forecast.css');
+
+:root {
+    --primary: #00B37E;
+    --background: #FFF;
+    --text: #121214;
+    --gray: #E1E1E6;
+    --red: #fff2f0;
+    --light-red: #ffccc7;
+    --blue: #e6f4ff;
+    --light-blue: #91caff;
+    --heavy-blue: #1677ff;
+    --purple: #673183;
+    --light-purple: #855a9c;
+    --background-light: rgba(255, 255, 255, 0.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+} 
+
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.error {
+  font-size: 12px;
+  display: block;
+  padding: 10px;
+  border: 1px solid var(--light-red);
+  background-color: var(--red);
+  text-align: center;
+  margin-bottom: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
